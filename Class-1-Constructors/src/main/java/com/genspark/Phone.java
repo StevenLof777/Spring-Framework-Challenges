@@ -3,11 +3,7 @@ package com.genspark;
 public class Phone {
     private String mob;
 
-    public String getMob() {
-        return mob;
-    }
-
-    public void setMob(String mob) {
+    public Phone(String mob) {
         this.mob = mob;
     }
 
