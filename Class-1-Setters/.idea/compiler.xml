@@ -6,14 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Class-1-Setters" />
-        <module name="Class-2-Annotations" />
-        <module name="Class-1-Constructors" />
         <module name="Spring-Framework-Class-1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Class-2" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,4 +1,5 @@
-package com.genspark;
+package org.example;
+
 public class Phone {
     private String mob;
     public Phone(String mob) {
@@ -11,3 +12,5 @@ public class Phone {
                 '}';
     }
 }
+
+

@@ -1,0 +1,28 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id = "Print" class="com.genspark.Student">
+        <constructor-arg index="0" value="12345"/>
+        <constructor-arg index="1" value="Bob"/>
+        <constructor-arg index="2" ref="Address"/>
+        <constructor-arg index="3" >
+            <list>
+                <ref bean="Phone"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="Phone" class="com.genspark.Phone">
+        <constructor-arg index="0" value="012-345-6789" />
+    </bean>
+
+    <bean id ="Address" class = "com.genspark.Address">
+        <constructor-arg index="0" value="New York"/>
+        <constructor-arg index="1" value="New York"/>
+        <constructor-arg index="2" value="America"/>
+        <constructor-arg index="3" value="54321"/>
+    </bean>
+
+</beans>

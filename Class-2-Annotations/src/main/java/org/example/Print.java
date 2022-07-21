@@ -1,4 +1,5 @@
-package com.genspark;
+package org.example;
+
 public interface Print {
     void print();
 }
